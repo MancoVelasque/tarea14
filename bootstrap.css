@@ -1,0 +1,158 @@
+
+*{
+    box-sizing: border-box;
+    }
+    
+    body {
+    cursor: url('img/cursor.png'), auto;
+    margin: 0;
+    background-color: rgb(62, 34, 128);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 83px;
+
+    }
+    
+    #imagenes {
+    z-index: 10;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     bottom:-50px /*cambiar esto si se requiere aumentar mi pagina*/
+    }
+    
+    .face, .you {
+    margin: 0 20px;
+    bottom: -90px;
+    position: relative;
+    z-index: 10;
+    }
+    
+    
+    #opciones {
+    position:relative;
+    display: flex;
+    flex-wrap: wrap; 
+    bottom: 88px;
+    right: 15px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(73, 31, 141);
+    text-align: center;
+    
+    }
+    
+    #opciones li {
+    margin: 16px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 69.4px;
+    height: 50px;
+    padding: 29px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+    }
+    
+    
+    #opciones li:hover {
+    color: rgb(176, 161, 245);
+    transform: scale(1.05);
+    box-shadow: 0 0px 15px rgb(0, 255, 234); 
+    transition-duration: 300ms;
+    }
+    
+    
+    
+    .linea {
+    border: 15.6px solid aliceblue;
+    position: relative;
+    background-color: aliceblue;
+    height: 1%;
+    width: 58%;
+    z-index: -1;
+    display: flex;
+    bottom: 126px;
+    left: 253px;
+    }
+    
+    .pad{
+    top: 40%;
+    
+    }
+   
+    
+    .face{
+    position: relative;  
+    bottom: -86px;
+    }
+    .x{
+    right: -5%;  
+    position: relative;
+    z-index: 10;
+    bottom: -80px; 
+    }
+    #opciones .boton{
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(255, 255, 255);
+        color: rgb(176, 161, 245);
+        background-color: white;
+        transform: scale(1.05);
+        box-shadow: 0 0px 15px rgb(0, 255, 234); 
+        }
+    
+    
+        .noso, .cont, .gale,.blo{
+            position: relative;
+            right: 19px;
+            bottom: 10px;
+            color: rgb(73, 31, 141);
+            }
+            
+    .gale{
+    position: relative;
+    right:16px;
+    color: rgb(73, 31, 141);
+    }
+    .blo, .ini{
+    position: relative;
+    bottom: 10px; 
+    right:8px;
+    color: rgb(73, 31, 141);
+    }
+    .vidi{
+    position: relative;
+    bottom: 10px;
+    right: 9px;
+    color: rgb(73, 31, 141);
+    }
+    .a,.b,.c,.d,.f,.g{
+    position: relative;
+    bottom: 14px;
+    right: 3px;
+    color: rgb(73, 31, 141);
+    }
+    .cont{
+        left: -22px;
+    }
+    .navi{
+        position: relative;
+        right: 16px;
+        bottom: 10px;
+        color: rgb(73, 31, 141);
+    }
+    nav{
+        top: 90px;
+    }  
+    #opciones{
+    bottom: 79px;
+    margin-left:191px;
+    }
+    #opciones a{
+        text-decoration-color:  rgb(73, 31, 141);
+    }

@@ -1,0 +1,190 @@
+body{
+background:linear-gradient(190deg,rgba(21, 18, 224, 0.856) 0.1px,rgb(146, 151, 228) ,rgba(245, 104, 104, 0.678), rgb(228, 42, 82) 99%);
+height: 1140px;
+border: 15px solid rgb(255, 255, 255);
+border-radius: 5px;
+margin: 0;
+box-shadow: inset 0 0 15px 1px rgba(23, 21, 156, 0.582);
+}
+#opciones {
+position: relative;
+display: flex;
+flex-wrap: wrap;
+bottom: 1px;
+font-family: "Bebas Neue", sans-serif;
+color: rgb(73, 31, 141);
+text-align: center;
+width: 100%;
+justify-content: center;
+padding-left: 5px;
+}
+        
+#opciones li {
+margin: 15px; 
+border: 2px solid rgb(255, 255, 255);
+width: 30px;
+height: 20px; 
+padding: 19px; 
+background-color: aliceblue;
+border-radius: 10px;
+list-style: none;
+cursor: pointer;
+position: relative;
+bottom: 20px;
+}
+    
+#opciones .boton{
+background-color: rgb(255, 255, 255);
+border: 2px solid rgb(255, 255, 255);
+color: rgb(176, 161, 245);
+background-color: white;
+transform: scale(1.05);
+box-shadow: 0 0px 15px rgb(0, 255, 234); 
+}
+
+.linea{
+border: 6px solid none;
+position: absolute;
+background-color: aliceblue;
+top: 7.8%;
+left: 50%;
+height: 30px;
+width: 49%;
+transform: translate(-50%, -50%);
+z-index: -1;
+}
+
+#opciones .boton{
+background-color: rgb(255, 255, 255);
+border: 2px solid rgb(255, 255, 255);
+color: rgb(176, 161, 245);
+background-color: white;
+transform: scale(1.05);
+box-shadow: 0 0px 15px rgb(0, 255, 234); 
+}
+
+
+
+
+.noso, .cont{
+position: relative;
+right: 10px;
+}
+
+.gale{
+position: relative;
+right: 4px;
+}
+
+.you{
+left: -66px;    
+}
+.face, .you{
+right:10%;
+bottom: 0px;
+position: relative;
+}
+        
+.you{
+right:74%;
+position: relative;
+}
+        
+.face{
+right: 164px;   
+}
+.x{
+left: 30px;
+position: relative;
+}
+
+#imagenes {
+z-index: 10;
+position: absolute;
+display: flex;
+align-content: space-around;
+align-items: center;
+top:1100px; 
+left: 57%; 
+justify-content: center;
+transform: translateX(-50%); 
+}
+#opciones li:hover {
+color: rgb(176, 161, 245);
+transform: scale(1.05);
+box-shadow: 0 0px 15px rgb(0, 255, 234); 
+transition-duration: 300ms;
+}
+        
+.cuerpo{
+left: 90px;
+top: 50px;
+position: relative;
+    
+}
+input{
+width: 280px;
+}
+.telef, .gema{
+position: relative;
+right: 5px;
+}
+.gema{
+right: 12px;
+}
+
+
+table, th, td{
+border: 1px solid rgb(255, 255, 255);
+border-collapse: collapse;
+padding: 10px;
+    
+}
+
+h3{
+position: relative;
+left:70px ;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(11, 11, 46);
+}
+.conta{
+left: 100px;
+}
+.area{
+width: 430px;
+position: relative;
+}
+
+.cuestionario{
+left: 60%;
+position: relative;
+bottom: 280px;
+
+}
+.envi{
+width: 21%; 
+padding: 5px;
+background-color: #17153b; 
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+.envi:hover{
+background-color: #4595a0;
+transition-duration: 900ms;
+transform: scale(0.9);
+}
+.mapa{
+position: absolute;
+left: 25%;
+top: 600px;
+border: 5px solid rgb(206, 224, 105);
+width: 600px;
+height: 450px;
+}
+.navi{
+    position: relative;
+    right: 6px;
+}
+        
